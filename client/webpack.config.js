@@ -16,8 +16,8 @@ module.exports = {
         exclude: /node_module/,
       },
       {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"], 
+        test: /\.(sass|scss|css)$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
         //외부라이브러리를 가져와서 css를 구성할 경우(ex @stackoverflow/~), 그 라이브러리는 
       },
       {
