@@ -1,0 +1,39 @@
+= Stack Overflow
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: Table of Contents
+:source-highlighter: prettify
+
+seb39_044 <team044@codestates.com>
+
+v1.0.0, 2022.07.10
+
+***
+API 문서 개요
+
+ 이 문서를 통해 API의 구체적인 사용법을 알 수 있습니다.
+// (1)
+CAUTION: 이 문서는 학습용으로 일부 기능에 제한이 있습니다. 기능 제한 사항에 대해 알고 싶다면 담당자에게 문의 하세요
+
+***
+
+image::https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg[spring]
+
+***
+== QuestionController
+=== 특정 질문 조회
+.curl-request
+include::{snippets}/get-question/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-question/http-request.adoc[]
+
+.path-parameters
+include::{snippets}/get-question/path-parameters.adoc[]
+
+.http-response
+include::{snippets}/get-question/http-response.adoc[]
+
+.response-fields
+include::{snippets}/get-question/response-fields.adoc[]
