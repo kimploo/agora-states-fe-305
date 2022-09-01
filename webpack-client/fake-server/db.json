@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "answers": "6",
+      "questionId": 6,
+      "questionTitle": "test6",
+      "questionBody": "bodytest6",
+      "questionView": 10,
+      "member": {
+        "userId": 1,
+        "userPw": "1234",
+        "username": "kim",
+        "email": "a@gmail.com"
+      },
+      "createdAt": "2022-08-25T14:01:22.6567511",
+      "modifiedAt": "2022-08-25T14:01:22.6567511"
+    },
+    {
+      "answers": "6",
+      "questionId": 5,
+      "questionTitle": "test5",
+      "questionBody": "bodytest5",
+      "questionView": 5,
+      "member": {
+        "userId": 2,
+        "userPw": "1234",
+        "username": "jim",
+        "email": "b@gmail.com"
+      },
+      "createdAt": "2022-08-25T14:01:22.6567511",
+      "modifiedAt": "2022-08-25T14:01:22.6567511"
+    },
+    {
+      "answers": "6",
+      "questionId": 4,
+      "questionTitle": "test4",
+      "questionBody": "bodytest4",
+      "questionView": 20,
+      "member": {
+        "userId": 3,
+        "userPw": "1234",
+        "username": "qim",
+        "email": "c@gmail.com"
+      },
+      "createdAt": "2022-08-25T14:01:22.6567511",
+      "modifiedAt": "2022-08-25T14:01:22.6567511"
+    },
+    {
+      "answers": "6",
+      "questionId": 3,
+      "questionTitle": "test3",
+      "questionBody": "bodytest3",
+      "questionView": 25,
+      "member": {
+        "userId": 1,
+        "userPw": "1234",
+        "username": "kim",
+        "email": "a@gmail.com"
+      },
+      "createdAt": "2022-08-25T14:01:22.6567511",
+      "modifiedAt": "2022-08-25T14:01:22.6567511"
+    },
+    {
+      "answers": "6",
+      "questionId": 2,
+      "questionTitle": "test2",
+      "questionBody": "bodytest2",
+      "questionView": 3,
+      "member": {
+        "userId": 2,
+        "userPw": "1234",
+        "username": "jim",
+        "email": "b@gmail.com"
+      },
+      "createdAt": "2022-08-25T14:01:22.6567511",
+      "modifiedAt": "2022-08-25T14:01:22.6567511"
+    },
+    {
+      "id": "DbNnCnIsz5",
+      "member": {
+        "userPw": "",
+        "username": "",
+        "email": ""
+      }
+    }
+  ],
+  "pageInfo": {
+    "page": 1,
+    "size": 5,
+    "totalElements": 6,
+    "totalPages": 2
+  }
+}

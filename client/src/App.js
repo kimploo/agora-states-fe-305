@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-// import {useEffect, useState} from 'react'
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AddAsk from "./Pages/AddAsk";
 import Answer from "./Pages/Answer";
@@ -9,9 +9,6 @@ import SignUp from "./Pages/SignUp";
 import Main from "./Pages/Main/Main";
 import { useState, useEffect } from "react";
 import { UserContext } from "./Pages/Main/UserContext";
-/// 제발 "http://59.16.126.210:9090/v1/todo" <- 대한님 서버 
-
-
 
 function App() {
   const [isLogin ,setIslogin] = useState(false)
